@@ -1,3 +1,14 @@
+# Diamant
+
+### The "push-your-luck" game
+
+##
+You are exploring a temple trying to find as much treasure as you can. But there are many hazards in the temple that may force you to escape and leave your gathered treasure s behind.
+The game consists of a deck of cards. There are 15 treasure cards valued 1 through 15. There are also 15 hazard cards, 3 cards each of 5 different types: Snakes, Spiders, Falling Rocks, Lava, and Zombies. The object of the game is to leave the temple with as much treasure as possible without revealing two copies of the same hazard.
+To start the game, shuffle the treasure cards and the hazard cards together to form a deck of 30 cards, and then reveal the top card. If it is a treasure card, add its value to the currently accumulated treasure. If it is a hazard card, do nothing. The player then has a choice of whether to leave the temple and keep their accumulated treasure, or to continue exploring.
+If the player continues, another card is revealed. If the revealed card is a second copy of a hazard that has already been revealed, the player loses and the game is over. Otherw ise, if the revealed card is a treasure, add its value to the accumulated treasure value. If instead the card is the first copy of a hazard card to be revealed, nothing happens. Either way, the player again has a choice of whether to continue exploring or to leave the temple.
+This cycle of revealing cards and making decisions continues until either the players loses by revealing a second copy of a hazard card, or they decide to leave the temple. If the player decides to leave the temple, the player wins and their score is the accumulated value of the treasures they have revealed.
+
 # Getting Started with Create React App
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
